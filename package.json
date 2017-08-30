@@ -1,0 +1,19 @@
+{
+  "name": "tstr-npmjs-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo tests successfull"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tourstream/tstr-npmjs-demo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tourstream/tstr-npmjs-demo/issues"
+  },
+  "homepage": "https://github.com/tourstream/tstr-npmjs-demo#readme"
+}
