@@ -9,7 +9,7 @@ script:
 deploy:
   provider: npm
   email: $NPM_EMAIL
-  api_key: $NPM_API_KEY
+  api_key: $NPM_AUTHTOKEN
   on:
     tags: true
     branch: master
