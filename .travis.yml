@@ -1,7 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - "7"
+  - '7'
 
 script:
   - npm run test
@@ -10,7 +10,8 @@ deploy:
   provider: npm
   email: $NPM_EMAIL
   api_key:
-    secure: $NPM_AUTHTOKEN
+    secure: k3YA9zcIrVGWgCFfV5+lW2Ha5m6BSttkrramjj7qvwLXNh5/+ytyoQn7KcmVtiqdE9o6Np6j6Jf4KquLVWqdGeNPl2o9kFndsqJtSltLvdYTtVnk48vO3DTRnwEcAk+fVJrXkGy5Z+rdEUGG6JD+l2hfE421KmXKECA9VjopUBKnPri8rJQpSV1mXsGZu7Xn6Pt956FlZpxHgo1ySB69IphPsrKPt/GlwTs4HQW0zqWeQgjm2WsJtPAHDbQijmHGuUKETTZvJLXrED6UbkSqOokunJfhgY9PuIg0zf90pBQWfkPcOX8S/cHeWn88ucdy/tXU3ZkGQGYbzHRGwhcxnj0fwG3CnwN5GDBDcHC5PlYd0zsGHlA4cXa/9fmhDUx3D1xW9hOKF+sZeNnnThHMyt5k8Nhveux8sf7ywoUCm+JVtcnqu5ynft6xSq9pNUvTqg3ff6oYTzBMdgQBvlXxvPs6ogFX5zXQiG8BBItupiFljeMB1+LicTr9w9ABy4bKXK/DksY5KVpK6Cu+7IQ9GdoLvPwbjq8DE/TrVQQrRpMWuOD0x10uQC9NXuCWNtI4FbtWRcxeIgH02n/66RjoIdPuVmRR2nF95ybGc4iOgT4yYvKInqkE4Oeu4DLBeuOAwY0Kd12Rr1N4XYX1yGY2RSvbFS2iwqt+kMFISdHhTpY=
   on:
-    tags: true
     branch: master
+    tags: true
+    repo: tourstream/tstr-npmjs-demo
