@@ -1,8 +1,15 @@
-script: echo "tests successed"
+sudo: false
+language: node_js
+node_js:
+  - "7"
+
+script:
+  - npm run test
+
 deploy:
   provider: npm
-  email: "YOUR_EMAIL_ADDRESS"
-  api_key: "YOUR_AUTH_TOKEN"
+  email: $NPM_EMAIL
+  api_key: $NPM_API_KEY
   on:
     tags: true
     branch: master
